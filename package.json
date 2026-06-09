@@ -1,0 +1,24 @@
+{
+  "name": "group",
+  "version": "1.0.0",
+  "description": "Interactive Three.js crystal point group viewer.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/start-server.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "qa": "node tools/qa-playwright.mjs",
+    "validate:symmetry": "node tools/validate-symmetry.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0",
+    "vite": "^8.0.16"
+  }
+}
